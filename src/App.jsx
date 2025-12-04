@@ -4,10 +4,10 @@ import up from "./assets/up.png";
 import down from "./assets/down.png";
 function App() {
   let [shift,setShift]=useState(0)
-      // setInterval(function(){
-      //   shift=shift+10
-      //   setShift(shift)
-      // },50)
+      setInterval(function(){
+        shift=shift+10
+        setShift(shift)
+      },50)
     
   
   return (
